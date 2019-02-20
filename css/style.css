@@ -80,7 +80,7 @@ h5,
 h6 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  color: #000000; }
+  color: #006600; }
 
 button:focus {
   outline: none;
@@ -525,9 +525,10 @@ button:focus {
 /* Home Banner Area css
 ============================================================================================ */
 .home_banner_area {
-  background: url(../img/banner/home-banner.png) no-repeat center center;
+  background: url(../img/header-image.png) no-repeat center center;
   background-size: cover;
-  min-height: 900px; }
+  background-attachment: relative;
+  min-height: 700px; }
   @media (max-width: 991px) {
     .home_banner_area {
       min-height: 650px; } }
@@ -545,7 +546,7 @@ button:focus {
     text-align: center; }
     .home_banner_area .banner_inner .banner_content h2 {
       margin-top: 0px;
-      font-size: 120px;
+      font-size: 90px;
       color: #fff; }
       @media (max-width: 991px) {
         .home_banner_area .banner_inner .banner_content h2 {
@@ -703,7 +704,8 @@ button:focus {
 .single-feature {
   text-align: center;
   padding: 40px 20px;
-  border: 1px solid #eeeeee;
+  border: 3px solid #eeeeee;
+  border-radius: 20px;
   margin-bottom: 30px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -719,7 +721,33 @@ button:focus {
     margin-bottom: 15px; }
   .single-feature:hover {
     border: 1px solid transparent;
-    box-shadow: 0px 5px 50px rgba(129, 74, 255, 0.2); }
+    box-shadow: 0px 5px 50px white; }
+
+
+.single-feature-light {
+  text-align: center;
+  padding: 40px 20px;
+  border: 3px solid #eeeeee;
+  background-color: white;
+  opacity: 0.9;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+  .single-feature-light .feature-thumb {
+    position: relative;
+    overflow: hidden;
+    background: #f7f9fd;
+    padding: 40px; }
+  .single-feature-light .feature-details h5 {
+    font-size: 21px;
+    margin-bottom: 15px; }
+  .single-feature-light:hover {
+    border: 1px solid transparent;
+    box-shadow: 0px 5px 50px #ffc107; }
+
 
 /* End Feature Area css
 ============================================================================================ */

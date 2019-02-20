@@ -1,0 +1,139 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 26/10/2018 11:39
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-001-smartphone:before { content: "\f100"; }
+.flaticon-002-smartphone-1:before { content: "\f101"; }
+.flaticon-003-fast-delivery:before { content: "\f102"; }
+.flaticon-004-grocery:before { content: "\f103"; }
+.flaticon-005-smartphone-2:before { content: "\f104"; }
+.flaticon-006-truck:before { content: "\f105"; }
+.flaticon-007-hamburger:before { content: "\f106"; }
+.flaticon-008-french-fries:before { content: "\f107"; }
+.flaticon-009-bag:before { content: "\f108"; }
+.flaticon-010-order-food:before { content: "\f109"; }
+.flaticon-011-placeholder:before { content: "\f10a"; }
+.flaticon-012-tray:before { content: "\f10b"; }
+.flaticon-013-order-food-1:before { content: "\f10c"; }
+.flaticon-014-pizza:before { content: "\f10d"; }
+.flaticon-015-fried-chicken:before { content: "\f10e"; }
+.flaticon-016-sold:before { content: "\f10f"; }
+.flaticon-017-discount:before { content: "\f110"; }
+.flaticon-018-motorcycle:before { content: "\f111"; }
+.flaticon-019-time:before { content: "\f112"; }
+.flaticon-020-serve:before { content: "\f113"; }
+.flaticon-021-cutlery:before { content: "\f114"; }
+.flaticon-022-add:before { content: "\f115"; }
+.flaticon-023-rating:before { content: "\f116"; }
+.flaticon-024-screen:before { content: "\f117"; }
+.flaticon-025-remove:before { content: "\f118"; }
+.flaticon-026-call-center:before { content: "\f119"; }
+.flaticon-027-taste:before { content: "\f11a"; }
+.flaticon-028-search:before { content: "\f11b"; }
+.flaticon-029-shopping-bag:before { content: "\f11c"; }
+.flaticon-030-discount-1:before { content: "\f11d"; }
+.flaticon-031-free-delivery:before { content: "\f11e"; }
+.flaticon-032-ordering:before { content: "\f11f"; }
+.flaticon-033-noodle:before { content: "\f120"; }
+.flaticon-034-menu:before { content: "\f121"; }
+.flaticon-035-cancel:before { content: "\f122"; }
+.flaticon-036-insignia:before { content: "\f123"; }
+.flaticon-037-promotion:before { content: "\f124"; }
+.flaticon-038-healthy-food:before { content: "\f125"; }
+.flaticon-039-star:before { content: "\f126"; }
+.flaticon-040-delivery:before { content: "\f127"; }
+.flaticon-041-waiter:before { content: "\f128"; }
+.flaticon-042-coffee:before { content: "\f129"; }
+.flaticon-043-sea-food:before { content: "\f12a"; }
+.flaticon-044-voucher:before { content: "\f12b"; }
+.flaticon-045-star-1:before { content: "\f12c"; }
+.flaticon-046-donut:before { content: "\f12d"; }
+.flaticon-047-soda:before { content: "\f12e"; }
+.flaticon-048-bill:before { content: "\f12f"; }
+.flaticon-049-steak:before { content: "\f130"; }
+.flaticon-050-salad:before { content: "\f131"; }
+    
+    $font-Flaticon-001-smartphone: "\f100";
+    $font-Flaticon-002-smartphone-1: "\f101";
+    $font-Flaticon-003-fast-delivery: "\f102";
+    $font-Flaticon-004-grocery: "\f103";
+    $font-Flaticon-005-smartphone-2: "\f104";
+    $font-Flaticon-006-truck: "\f105";
+    $font-Flaticon-007-hamburger: "\f106";
+    $font-Flaticon-008-french-fries: "\f107";
+    $font-Flaticon-009-bag: "\f108";
+    $font-Flaticon-010-order-food: "\f109";
+    $font-Flaticon-011-placeholder: "\f10a";
+    $font-Flaticon-012-tray: "\f10b";
+    $font-Flaticon-013-order-food-1: "\f10c";
+    $font-Flaticon-014-pizza: "\f10d";
+    $font-Flaticon-015-fried-chicken: "\f10e";
+    $font-Flaticon-016-sold: "\f10f";
+    $font-Flaticon-017-discount: "\f110";
+    $font-Flaticon-018-motorcycle: "\f111";
+    $font-Flaticon-019-time: "\f112";
+    $font-Flaticon-020-serve: "\f113";
+    $font-Flaticon-021-cutlery: "\f114";
+    $font-Flaticon-022-add: "\f115";
+    $font-Flaticon-023-rating: "\f116";
+    $font-Flaticon-024-screen: "\f117";
+    $font-Flaticon-025-remove: "\f118";
+    $font-Flaticon-026-call-center: "\f119";
+    $font-Flaticon-027-taste: "\f11a";
+    $font-Flaticon-028-search: "\f11b";
+    $font-Flaticon-029-shopping-bag: "\f11c";
+    $font-Flaticon-030-discount-1: "\f11d";
+    $font-Flaticon-031-free-delivery: "\f11e";
+    $font-Flaticon-032-ordering: "\f11f";
+    $font-Flaticon-033-noodle: "\f120";
+    $font-Flaticon-034-menu: "\f121";
+    $font-Flaticon-035-cancel: "\f122";
+    $font-Flaticon-036-insignia: "\f123";
+    $font-Flaticon-037-promotion: "\f124";
+    $font-Flaticon-038-healthy-food: "\f125";
+    $font-Flaticon-039-star: "\f126";
+    $font-Flaticon-040-delivery: "\f127";
+    $font-Flaticon-041-waiter: "\f128";
+    $font-Flaticon-042-coffee: "\f129";
+    $font-Flaticon-043-sea-food: "\f12a";
+    $font-Flaticon-044-voucher: "\f12b";
+    $font-Flaticon-045-star-1: "\f12c";
+    $font-Flaticon-046-donut: "\f12d";
+    $font-Flaticon-047-soda: "\f12e";
+    $font-Flaticon-048-bill: "\f12f";
+    $font-Flaticon-049-steak: "\f130";
+    $font-Flaticon-050-salad: "\f131";

@@ -2,15 +2,15 @@
 ============================================================================================ */
 
 .home_banner_area {
-	background: url(../img/banner/home-banner.png) no-repeat center center;
+	background: url(../img/home-banner.png) no-repeat center center;
 	background-size: cover;
-	min-height: 900px;
+	min-height: 700px;
 	@media (max-width: 991px) {
 		min-height: 650px;
 	}
 	.banner_inner {
 		@media (max-width: 1199px) {
-			min-height: 900px;
+			min-height: 700px;
 		}
 		@media (max-width: 991px) {
 			min-height: 650px;
